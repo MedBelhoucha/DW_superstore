@@ -5,7 +5,7 @@ réalisé dans le cadre du module *Data Warehouse & Business Intelligence*.
 
 ## 1. Contenu du dépôt
 
-- `sql/` : scripts PostgreSQL (création des schémas, tables dimensions/faits,
+- `SQL/` : scripts PostgreSQL (création des schémas, tables dimensions/faits,
   génération de `dw.dim_date`, chargement initial, vues OLAP).
 - `talend/` : export du projet Talend Open Studio (jobs de staging, dimensions,
   faits et job parent d’orchestration).
@@ -17,7 +17,6 @@ réalisé dans le cadre du module *Data Warehouse & Business Intelligence*.
 
 - PostgreSQL 17 (ou version équivalente)
 - Talend Open Studio for Data Integration 8.x
-- Java JDK 8 ou 11
 
 ## 3. Installation de la base de données
 
@@ -36,8 +35,8 @@ réalisé dans le cadre du module *Data Warehouse & Business Intelligence*.
 ## 4. Import du projet Talend
 
 1. Ouvrir Talend Open Studio.
-2. `File > Import Items...`
-3. Sélectionner l’archive `talend/export_dw_projet1.zip`.
+2. `File > Import ...`
+3. Sélectionner l’archive `talend/dw_project_talend.zip`.
 4. Importer les jobs (staging, dimensions, faits, job parent).
 
 Le job parent `job_parent_dw_superstore` permet d’exécuter toute la chaîne ETL
