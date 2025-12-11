@@ -10,7 +10,7 @@ réalisé dans le cadre du module *Data Warehouse & Business Intelligence*.
 - `talend/` : export du projet Talend Open Studio (jobs de staging, dimensions,
   faits et job parent d’orchestration).
 - `data/` : fichier source `Superstore.csv` (données de ventes).
-- `docs/` : rapport du projet et documentation complémentaire.
+- `doc/` : rapport du projet et documentation complémentaire.
 - `screenshots/` : quelques captures d’écran illustrant l’architecture.
 
 ## 2. Prérequis
